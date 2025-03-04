@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 // Constants
 const float HIGH_DISCOUNT = 0.15; // 15% discount
 const float LOW_DISCOUNT = 0.10;  // 10% discount
