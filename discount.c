@@ -32,7 +32,7 @@ int main() {
     char name[100];
 
     // Prompt the user to enter their full name
-    printf("Please enter your full name: ");
+    printf("Please enter your name: ");
     fgets(name, sizeof(name), stdin);
     name[strcspn(name, "\n")] = 0; // Remove the trailing newline character
 
