@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>  // Required for strcmp() and strcspn()
+#include <string.h>  // For purpose of strcmp() and strcspn() functions
 
 // Constants
 const float HIGH_DISCOUNT = 0.15; // 15% discount
@@ -41,7 +41,7 @@ int main() {
 
         // Check if the user wants to quit
         if (strcmp(name, "q") == 0 || strcmp(name, "Q") == 0) {
-            printf("Exiting program. Goodbye!\n");
+            printf("Exiting program. Welcome Again!\n");
             break;
         }
 
